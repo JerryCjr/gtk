@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://s0.babyfs.cn/op/arch/48/ecb08d82505f4af182fd1019a52b587c/starts/starts.css">
+    <script src="https://s0.babyfs.cn/op/arch/52/9c13564e387b49b1ac62fa21207000cb/wx.js"></script>
+    <script src="https://s0.babyfs.cn/op/arch/1/7277bfc160f94289beaf91b9e5847bd8/bbfsmta.js" charset="utf-8"></script>
+    <script>
+        function Rem() {
+            var docEl = document.documentElement,
+                oSize = docEl.clientWidth / 13.34;
+            if (oSize > 100) {
+                oSize = 100;
+            }
+            docEl.style.fontSize = oSize + 'px';
+        }
+        window.addEventListener('resize', Rem, false);
+        Rem();
+    </script>
+</head>
+
+<body>
+    <!-- loading -->
+    <div id="loading">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- /loading -->
+    <audio preload="load" id="audio01" src="" style="display:none;"></audio>
+    <audio preload="load" id="audio02" src="" style="display:none;"></audio>
+    <audio preload="load" id="bgAudio" src="" style="display:none;" loop></audio>
+
+    <!-- cover -->
+    <div class='horizontal-screen-prompt'></div>
+    <div id="home-page"></div>
+    <img class='rule' src=''>
+    <div class="mack"></div>
+    <div class="mack1"></div>
+    <!-- content -->
+    <div class="content" id="content"></div>
+    <!-- finish -->
+    <div class="modalBox f-modal-box"></div>
+
+    <script src="https://s0.babyfs.cn/m/template/common/require.min.js" data-main='./js/main'></script>
+</body>
+
+</html>
