@@ -157,7 +157,3 @@ _已经处于打包了_
 
 
 为*的情况
-
-
-https://github.com/commonheartwah/PhaserDown
-# gtk
